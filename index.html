@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<audio id="my_audio" src="elevate.mp3" loop="loop"></audio>
+   <canvas id="myCanvas" width=240 height=240></canvas>
+ 
+  <button onclick="lightSwitch()">Click To Turn Light On and Off</button>
+
+  <h1>Choose a Bulb Color:</h1>
+  <div class="container">
+     <ul id="colorList">
+    <li onclick="setRed()" id="red"></li>
+    <li onclick="setGreen()" id="green"></li>
+    <li onclick="setYellow()" id="yellow"></li>
+  </ul>
+  </div>
+ 
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>

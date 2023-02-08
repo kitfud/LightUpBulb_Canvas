@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+canvas{
+  display:block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+button{
+  display:block;
+  margin:auto;
+}
+
+li{
+  list-style: none;
+  float:left;
+  margin-right: 20px;
+}
+
+h1{
+  text-align: center;
+}
+.container{
+  display:flex;
+ justify-content: center;
+}
+
+#red,#yellow,#green{
+  width:150px;
+  height:150px;
+  border:4px solid;
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+#red:hover{
+border-color: blue;
+}
+
+#yellow:hover{
+  border-color: blue;
+}
+
+#green:hover{
+  border-color: blue;
+}
+
